@@ -52,6 +52,10 @@ main .slide a{
 main .slide .descrição-slide{
 	margin-left: 50px;
 }
+main .catalogo{
+	margin: 50px;
+	
+}
 main .catalogo .destaque-vertodos{
 	display: flex;
 	justify-content: space-between;
