@@ -39,4 +39,11 @@ main .slide h2{
 main .slide p{
 	color: white;
 	font-size: 18px;
+	margin-bottom: 20px;
+}
+main .slide a{
+	color: white;
+	background: #ff0000;
+	padding: 8px 15px;
+	
 }
