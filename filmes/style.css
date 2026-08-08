@@ -45,5 +45,7 @@ main .slide a{
 	color: white;
 	background: #ff0000;
 	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 8px;
 	
 }
