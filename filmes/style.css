@@ -1,17 +1,16 @@
 *{margin: 0; padding: 0;}
 header{
 	height: 70px;
-	width:100%;
+	width: 100%;
 	background: black;
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-around;
 	align-items: center;
-
 }
 ul{
-	display: flex;
-	justify-content: space-between;	
-	width: 35%;
+	display:flex;
+	justify-content: space-between;
+	width: 33%;
 }
 header a{
 	color: white;
@@ -22,19 +21,17 @@ main .slide{
 	width: 100%;
 	height: 100vh;
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size:cover;
 	display: flex;
 	align-items: center;
 }
 main .slide h3{
-    color: white;
-    font-size: 40px;
-    
+	color: white;
+	font-size: 40px;
 }
 main .slide h2{
 	color: red;
-	font-size: 55px;
-	
+	font-size: 50px;
 }
 main .slide p{
 	color: white;
@@ -43,21 +40,30 @@ main .slide p{
 }
 main .slide a{
 	color: white;
-	background: #ff0000;
+	background: red;
 	padding: 8px 15px;
 	text-decoration: none;
 	border-radius: 8px;
-	
 }
-main .slide .descrição-slide{
+main .slide .descricao-slide{
 	margin-left: 50px;
 }
 main .catalogo{
 	margin: 50px;
-	
 }
 main .catalogo .destaque-vertodos{
 	display: flex;
 	justify-content: space-between;
+}
+		
+main .catalogo ul li{
+	width: 200px;
+	height: 350px;
+	border: 1px solid gray;
+	overflow: hidden;
 
+}
+main .catalogo ul li img{
+	width: 100%;
+	height: 230px;
 }
