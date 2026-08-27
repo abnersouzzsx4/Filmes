@@ -1,7 +1,8 @@
-*{margin: 0; padding: 0;}
 body{
-	font-family: "arial";
+		font-family: "Arial";
 }
+
+*{margin: 0; padding: 0;}
 header{
 	height: 70px;
 	width: 100%;
@@ -58,37 +59,42 @@ main .catalogo .destaque-vertodos{
 	display: flex;
 	justify-content: space-between;
 }
-		
+	
 main .catalogo ul li{
-	width: 200px;
-	height: 350px;
-	border: 1px solid gray;
-	overflow: hidden;
-	border-radius: 10px;
+		width: 200px;
+		height: 370px;
+		border: 1px solid gray;
+		overflow: hidden;
+		border-radius: 10px;
 
 }
 main .catalogo ul li img{
-	width: 100%;
-	height: 230px;
+		width: 100%;
+		height: 230px;
 }
 main .catalogo ul li h2{
-	font-size: 22px;
-	text-align: center;
-	line-height: 20px; 
-	margin-bottom: 10px 0;
-	
+		font-size: 22px;
+		text-align: center;
+		line-height: 20px;
+		margin: 10px 0;
 }
 main .catalogo ul li .categoria{
-	color: #999;
-	padding: 0 0 10px 10px;	
+		color: #999;
+		padding: 0 0 10px 10px;
+		
+		
 }
 main .catalogo ul li .lancamento{
-	color: #999;
-	padding: 0 0 10 10px;
+		color: #999;
+		padding: 0 0 10px 10px;
+
 }
+
 main .catalogo ul li .avaliacao{
-	color: #999;
-	padding: 0 0 10 10px;
+		color: #999;
+		padding: 0 0 10px 10px;
+
 }
-
-
+main .catalogo ul{
+	width: 100%;
+}
