@@ -22,7 +22,7 @@ header a{
 	text-decoration: none;
 }
 main .slide{
-	background: url("imagens/banner-principal.png");
+	background: url("Imagens/banner-principal.png");
 	width: 100%;
 	height: 100vh;
 	background-repeat: no-repeat;
@@ -67,7 +67,7 @@ main .catalogo ul li{
 		height: 370px;
 		overflow: hidden;
 		border-radius: 10px;
-        		margin: 20px;
+        margin: 20px;
 		background: #ffffff
 
 }
@@ -108,4 +108,21 @@ footer{
 	background: #000;
 	height: 350px;
 	width: 100%;
+    display: flex;
+    padding: 15px;
+}
+footer div{
+    width: 33%;
+    height: 350px;
+    border: 1px solid white;
+}
+footer .sobre{
+    color: white;
+}
+footer h2{
+    font-size: 28px;
+}
+footer p{
+    font-size: 16px;
+    line-height: 16px;
 }
