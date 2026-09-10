@@ -21,6 +21,9 @@ header a{
 	color: white;
 	text-decoration: none;
 }
+header a:hover{
+    color:red;
+}
 main .slide{
 	background: url("Imagens/banner-principal.png");
 	width: 100%;
@@ -61,7 +64,6 @@ main .catalogo ul .destaque-vertodos{
 	justify-content: space-between;
 	width: 100%;
 }
-	
 main .catalogo ul li{
 		width: 200px;
 		height: 370px;
@@ -69,7 +71,6 @@ main .catalogo ul li{
 		border-radius: 10px;
         margin: 20px;
 		background: #ffffff
-
 }
 main .catalogo ul li img{
 		width: 100%;
@@ -84,19 +85,14 @@ main .catalogo ul li h2{
 main .catalogo ul li .categoria{
 		color: #999;
 		padding: 0 0 10px 10px;
-		
-		
 }
 main .catalogo ul li .lancamento{
 		color: #999;
 		padding: 0 0 10px 10px;
-
 }
-
 main .catalogo ul li .avaliacao{
 		color: #999;
 		padding: 0 0 10px 10px;
-
 }
 main .catalogo ul{
 	width: 1160px;
@@ -110,14 +106,12 @@ footer{
 	width: 100%;
     display: flex;
     padding: 15px;
+    color: white;
 }
 footer div{
     width: 33%;
     height: 350px;
     border: 1px solid white;
-}
-footer .sobre{
-    color: white;
 }
 footer h2{
     font-size: 28px;
@@ -127,4 +121,19 @@ footer p{
     font-size: 18px;
     line-height: 26px;
     margin: 20px;
+}
+footer .menu ul{
+    display:flex;
+    flex-direction: column;
+}
+footer .menu ul li{
+    list-style:none;
+    margin: 5px 0 5 20px;
+}
+footer .menu ul li a{
+    color: white;
+    text-decoration:none;
+}
+footer .menu ul li a:hover{
+    color: red;
 }
