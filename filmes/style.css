@@ -72,8 +72,12 @@ main .catalogo ul li{
 		height: 370px;
 		overflow: hidden;
 		border-radius: 10px;
-        margin: 20px;
+         margin: 20px;
 		background: #ffffff
+}
+main .catalogo ul li:hover{
+	box-shadow: 1px 1px 5px 2px #00000030;
+	cursor: pointer;
 }
 main .catalogo ul li img{
 		width: 100%;
@@ -84,6 +88,14 @@ main .catalogo ul li h2{
 		text-align: center;
 		line-height: 20px;
 		margin: 10px 0;
+}
+main .catalogo ul li h2 a{
+	color: #000000;
+	text-decoration: none;
+	
+}
+main .catalogo ul li h2 a:hover{
+	color: red;
 }
 main .catalogo ul li .categoria{
 		color: #999;
@@ -110,11 +122,11 @@ footer{
     display: flex;
     padding: 15px;
     color: white;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 footer div{
     width: 33%;
-    height: 350px;
-    border: 1px solid white;
 }
 footer h2{
     font-size: 28px;
@@ -154,4 +166,8 @@ footer .categoria ul li a{
 }
 footer .categoria ul li a:hover{
     color:red;
+}
+footer > p{
+	width: 100%;
+	text-align: center;
 }
