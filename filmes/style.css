@@ -21,6 +21,12 @@ header a{
 	color: white;
 	text-decoration: none;
 }
+header a:active{
+    color: green;
+}
+header a:visited{
+    color:blue;
+}
 header a:hover{
     color:red;
 }
