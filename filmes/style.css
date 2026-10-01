@@ -1,9 +1,8 @@
-body{
-		font-family: "Arial";
-		background: #f3f3f3;
-}
-
 *{margin: 0; padding: 0;}
+body{
+	font-family: "Arial";
+	background: #f3f3f3;
+}
 header{
 	height: 70px;
 	width: 100%;
@@ -21,17 +20,11 @@ header a{
 	color: white;
 	text-decoration: none;
 }
-header a:active{
-    color: green;
-}
-header a:visited{
-    color:blue;
-}
 header a:hover{
-    color:red;
+	color: red;
 }
 main .slide{
-	background: url("Imagens/banner-principal.png");
+	background: url("imagens/banner-principal.png");
 	width: 100%;
 	height: 100vh;
 	background-repeat: no-repeat;
@@ -59,9 +52,6 @@ main .slide a{
 	text-decoration: none;
 	border-radius: 8px;
 }
-main .slide a:hover{
-    padding: 5px 5 5 5px;
-}
 main .slide .descricao-slide{
 	margin-left: 50px;
 }
@@ -74,106 +64,164 @@ main .catalogo ul .destaque-vertodos{
 	width: 100%;
 }
 main .catalogo ul li{
-		width: 200px;
-		height: 370px;
-		overflow: hidden;
-		border-radius: 10px;
-         margin: 20px;
-		background: #ffffff
+	width: 200px;
+	height: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	margin: 20px;
+	background: #ffffff;
 }
 main .catalogo ul li:hover{
 	box-shadow: 1px 1px 5px 2px #00000030;
 	cursor: pointer;
 }
 main .catalogo ul li img{
-		width: 100%;
-		height: 230px;
+	width: 100%;
+	height: 200px;
 }
 main .catalogo ul li h2{
-		font-size: 22px;
-		text-align: center;
-		line-height: 20px;
-		margin: 10px 0;
+	font-size: 22px;
+	text-align: center;
+	line-height: 20px;
+	margin: 10px 0;
 }
 main .catalogo ul li h2 a{
 	color: #000000;
 	text-decoration: none;
-	
 }
 main .catalogo ul li h2 a:hover{
 	color: red;
 }
 main .catalogo ul li .categoria{
-		color: #999;
-		padding: 0 0 10px 10px;
+	color: #999;
+	padding: 0 0 10px 10px;
 }
 main .catalogo ul li .lancamento{
-		color: #999;
-		padding: 0 0 10px 10px;
+	color: #999;
+	padding: 0 0 10px 10px;
 }
 main .catalogo ul li .avaliacao{
-		color: #999;
-		padding: 0 0 10px 10px;
+	color: #999;
+	padding: 0 0 10px 10px;
 }
 main .catalogo ul{
 	width: 1160px;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
 }
 footer{
 	background: #000;
 	height: 350px;
 	width: 100%;
-    display: flex;
-    padding: 15px;
-    color: white;
-    box-sizing: border-box;
-    flex-wrap: wrap;
+	display: flex;
+	padding: 15px;
+	color: white;
+	box-sizing: border-box;
+	flex-wrap: wrap;
 }
 footer div{
-    width: 33%;
+	width: 33%;
 }
 footer h2{
-    font-size: 28px;
-    margin: 20px;
+	font-size: 28px;
+	margin: 20px;
 }
 footer p{
-    font-size: 18px;
-    line-height: 26px;
-    margin: 20px;
+	font-size: 18px;
+	line-height: 26px;
+	margin: 20px;
 }
 footer .menu ul{
-    display:flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 footer .menu ul li{
-    list-style:none;
-    margin: 5px 0 5 20px;
+	list-style: none;
+	margin: 5px 0 5px 20px;
 }
 footer .menu ul li a{
-    color: white;
-    text-decoration:none;
+	color: white;
+	text-decoration: none;
 }
 footer .menu ul li a:hover{
-    color: red;
+	color: red;
 }
+
 footer .categoria ul{
-    display:flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 footer .categoria ul li{
-    list-style:none;
-    margin: 5px 0 5 20px;
+	list-style: none;
+	margin: 5px 0 5px 20px;
 }
 footer .categoria ul li a{
-    color: white;
-    text-decoration:none;
+	color: white;
+	text-decoration: none;
 }
 footer .categoria ul li a:hover{
-    color:red;
+	color: red;
 }
 footer > p{
 	width: 100%;
 	text-align: center;
+}
+/*SINGLE*/
+.conteudo{
+	width: 1440px;
+	margin: 0 auto;
+}
+.filme{
+	display: flex;
+}
+.filme img{
+	width: 200px;
+	margin: 20px;
+	border: 3px solid #cccccc40;
+	box-shadow: 0px 0px 3px 5px #00000030;
+	border-radius: 10px;
+}
+.filme h1{
+	margin-top: 20px;
+	color: #777777;
+	margin-bottom: 20px;
+}
+.filme p{
+	font-size: 19px;
+	text-align: justify;
+}
+.disponivel{
+	width: 1000px;
+}
+.disponivel ul{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 20px;
+}
+.disponivel ul li{
+	list-style: none;
+	background: red;
+	color: white;
+	padding: 4px 7px;
+	font-size: 22px;
+	border-radius: 7px;
+}
+.disponivel ul li:hover{
+	color:black;
+}
+/* menu dropdown */
+.dropdown-content{
+	display: none;
+}
+.dropdown:hover .dropdown-content{
+	display: flex;
+	flex-direction:column;
+	position: absolute;
+	background: black;
+	padding: 0 10px;
+}
+.dropdown-content a{
+	padding: 7px 0;
 }
