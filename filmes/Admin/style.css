@@ -58,6 +58,7 @@ ul li a {
     text-decoration: none;
     color: #333;
     font-size: 19px;
+    padding: 19px;
 }
 
 ul li a:hover {
