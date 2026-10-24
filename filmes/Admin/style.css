@@ -1,6 +1,7 @@
-* {
+*{
     margin: 0;
     padding: 0;
+    font-family: "arial";
 }
 
 .login {
@@ -67,8 +68,21 @@ ul li a:hover {
 
 #categoria h2 {
     text-align: center;
+    margin-top: 25px;
 }
 
 #categoria form {
     text-align: center;
+}
+#categoria input{
+    width: 400zpx;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background: #00000015;
+    text-align: center;
+}
+#categoria button{
+    width: 120px;
+    height: 40px;
 }
