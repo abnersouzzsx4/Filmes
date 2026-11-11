@@ -33,6 +33,9 @@
         echo "gravou com sucessoooooooo!";
   }else {
     echo "deu ruim";
-  }
+    }
+  $sql = "select * from categoria"
+  $resultado = $conn->query($sql);
+
 
 ?>
